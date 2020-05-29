@@ -1,3 +1,12 @@
+#Yes i can make functions for the embeds
+#Yes i only realized that after finishing coding
+#No i wont edit it now
+#If it aint broken dont fix it
+#Dont judge me
+#Bye
+
+
+
 import praw
 import discord
 from discord.ext import commands,tasks
