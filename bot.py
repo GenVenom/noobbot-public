@@ -35,6 +35,7 @@ async def unload(ctx,cname):
     author=ctx.message.author.id #gets the author's id.
     if author==OWNER_ID: #checks if the authors id matches the owner's id.
         client.unload_extension(f"cogs.{cname}")
+        await ctx.send(f"Successfully unloaded {cname}")
     else:
         await ctx.send("Only the bot owner can use this command!")
     
